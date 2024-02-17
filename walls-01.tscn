@@ -1,0 +1,34 @@
+[gd_scene load_steps=3 format=3 uid="uid://br08f4yqba5d0"]
+
+[ext_resource type="Script" path="res://Walls.gd" id="1_hmfx1"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_e0kym"]
+size = Vector2(20, 647)
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Walls" type="RigidBody2D" parent="."]
+gravity_scale = 0.0
+script = ExtResource("1_hmfx1")
+
+[node name="ColorRect" type="ColorRect" parent="Walls"]
+offset_left = 1.0
+offset_top = 4.0
+offset_right = 21.0
+offset_bottom = 648.0
+color = Color(0.419608, 0.419608, 0.419608, 1)
+
+[node name="ColorRect2" type="ColorRect" parent="Walls"]
+offset_left = 685.0
+offset_top = 1.0
+offset_right = 705.0
+offset_bottom = 649.0
+color = Color(0.419608, 0.419608, 0.419608, 1)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Walls"]
+position = Vector2(10, 326)
+shape = SubResource("RectangleShape2D_e0kym")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Walls"]
+position = Vector2(695, 323)
+shape = SubResource("RectangleShape2D_e0kym")

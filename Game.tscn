@@ -1,0 +1,69 @@
+[gd_scene load_steps=5 format=3 uid="uid://dj8i8pjgk4kuv"]
+
+[ext_resource type="PackedScene" uid="uid://det4rj400ykwf" path="res://Player.tscn" id="2_0c04m"]
+[ext_resource type="PackedScene" uid="uid://xhm8yxjbohr3" path="res://ground_simple.tscn" id="2_gi1ga"]
+[ext_resource type="PackedScene" uid="uid://b40kj0x4m4jlu" path="res://Background-Layer-Far.tscn" id="3_8k5h0"]
+[ext_resource type="PackedScene" uid="uid://br08f4yqba5d0" path="res://walls-01.tscn" id="4_11ska"]
+
+[node name="Game" type="Node2D"]
+
+[node name="Background" parent="." instance=ExtResource("3_8k5h0")]
+position = Vector2(246, 141)
+
+[node name="Player" parent="." instance=ExtResource("2_0c04m")]
+position = Vector2(208, 80)
+
+[node name="ground-simple" parent="." instance=ExtResource("2_gi1ga")]
+position = Vector2(1, 66)
+
+[node name="ground-simple2" parent="." instance=ExtResource("2_gi1ga")]
+position = Vector2(64, -89)
+rotation = 1.5708
+
+[node name="Node2D" parent="." instance=ExtResource("4_11ska")]
+position = Vector2(1032, 143)
+
+[node name="Node2D2" parent="." instance=ExtResource("4_11ska")]
+position = Vector2(1033, 2077)
+
+[node name="Node2D3" parent="." instance=ExtResource("4_11ska")]
+position = Vector2(1032, 1430)
+
+[node name="Node2D4" parent="." instance=ExtResource("4_11ska")]
+position = Vector2(1032, 786)
+
+[node name="Node2D5" parent="." instance=ExtResource("4_11ska")]
+position = Vector2(1033, 2711)
+
+[node name="Node2D6" parent="." instance=ExtResource("4_11ska")]
+position = Vector2(1034, 4645)
+
+[node name="Node2D7" parent="." instance=ExtResource("4_11ska")]
+position = Vector2(1033, 3998)
+
+[node name="Node2D8" parent="." instance=ExtResource("4_11ska")]
+position = Vector2(1033, 3354)
+
+[node name="Node2D9" parent="." instance=ExtResource("4_11ska")]
+position = Vector2(1038, 5251)
+
+[node name="Node2D10" parent="." instance=ExtResource("4_11ska")]
+position = Vector2(1039, 6540)
+
+[node name="Node2D11" parent="." instance=ExtResource("4_11ska")]
+position = Vector2(1038, 5893)
+
+[node name="Node2D12" parent="." instance=ExtResource("4_11ska")]
+position = Vector2(1041, 9678)
+
+[node name="Node2D13" parent="." instance=ExtResource("4_11ska")]
+position = Vector2(1039, 7174)
+
+[node name="Node2D14" parent="." instance=ExtResource("4_11ska")]
+position = Vector2(1040, 9108)
+
+[node name="Node2D15" parent="." instance=ExtResource("4_11ska")]
+position = Vector2(1039, 8461)
+
+[node name="Node2D16" parent="." instance=ExtResource("4_11ska")]
+position = Vector2(1039, 7817)
