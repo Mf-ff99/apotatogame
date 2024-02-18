@@ -6,8 +6,8 @@
 [node name="potato" instance=ExtResource("1_getqk")]
 texture_filter = 1
 texture_repeat = 1
-offset = Vector2(2, -1)
-region_rect = Rect2(44, 53, 23, 25)
+offset = Vector2(2, -2)
+region_rect = Rect2(69, 0, 23, 26)
 script = ExtResource("2_dbg2x")
 
 [node name="AnimationPlayer" parent="." index="0"]

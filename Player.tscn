@@ -4,8 +4,8 @@
 [ext_resource type="PackedScene" uid="uid://cf8tc723brtjq" path="res://potato.tscn" id="2_m7uxm"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_o78jb"]
-radius = 49.0
-height = 110.0
+radius = 20.0
+height = 44.0
 
 [node name="Player" type="CharacterBody2D"]
 script = ExtResource("1_mh4xu")
@@ -16,9 +16,9 @@ limit_top = 0
 
 [node name="potato" parent="." instance=ExtResource("2_m7uxm")]
 unique_name_in_owner = true
-position = Vector2(-9, -0.999996)
-scale = Vector2(4.30417, 4.30417)
+position = Vector2(3.8147e-06, 0)
+scale = Vector2(1.73433, 1.73433)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(1, -7)
+position = Vector2(4, -2)
 shape = SubResource("CapsuleShape2D_o78jb")
